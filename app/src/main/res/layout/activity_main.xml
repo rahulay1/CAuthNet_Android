@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnEnroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enroll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/btnAuthenticate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Authenticate"
+        android:layout_below="@id/btnEnroll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnShowStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Stats"
+        android:layout_below="@id/btnAuthenticate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:padding="16dp">-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnShowStats"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Show Stats"-->
+    <!--        android:layout_centerInParent="true" />-->
+    <!--</RelativeLayout>-->
